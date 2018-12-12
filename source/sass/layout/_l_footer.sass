@@ -1,0 +1,76 @@
+.l-submit
+  margin-top: 60px
+  &.box 
+    background: $primary
+  h3
+    font-size: 1.5rem
+    color: $secondary
+  form  
+    position: relative
+    height: 50px
+    background: $secondary
+    color: $primary
+    padding-left: 20px
+    font-size: 1.5rem
+    .mail
+      top: 9px
+    i 
+      position: relative
+      top: 4px
+    input 
+      position: relative
+      top: 4px
+      background: inherit
+      border-width: 0
+      outline-width: 0
+      width: 68%
+    button
+      position: absolute
+      right: 0
+      background: $warning
+      color: $primary
+      border-width: 0
+      width: 64px
+      height: 100%
+      &:hover
+        background: $warning-comp
+.l-bottom
+  &.box
+    height: auto
+    padding-bottom: 30px
+    background: $secondary
+    color: $primary
+    +media-breakpoint-down(sm)
+      padding-bottom: 0
+  .l-bottom-address
+    .l-bottom-title 
+      margin-top: 39px
+      margin-bottom: 115px 
+      +media-breakpoint-down(sm)
+        margin-bottom: 40px 
+    p 
+      margin-bottom: 0
+      color: $primary
+      font-family: $font-normal
+      font-weight: $weight-normal
+    img 
+      margin-top: 25px
+  .l-bottom-copyright
+    position: relative 
+    img
+      position: absolute
+      top: 30px
+      right: 0
+      margin-bottom: 47px
+    p
+      font-family: $font-times
+      font-weight: $weight-normal
+      position: absolute
+      bottom: 0
+      right: 0      
+  .copyright-last
+    margin-top: 23px
+    p
+      font-weight: $weight-normal
+
+

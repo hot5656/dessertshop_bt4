@@ -1,0 +1,38 @@
+.i-process__doing
+  display: inline-block
+  float: left
+  +circle-frame-in(16px , 10px, $secondary)
+
+.i-process__done
+  display: inline-block
+  float: left
+  color: $primary
+  +circle(16px , $secondary)
+  i 
+    position: relative
+    font-size: 16px
+    top: 0
+
+.i-process__wait
+  display: inline-block
+  float: left
+  +circle-frame(16px, $secondary)
+
+.i-process__line
+  display: inline-block
+  float: left
+  +line-middle(16px , calc(50% - 24px), 1px, $secondary)
+
+.i-process__done_inv
+  display: inline-block
+  float: left
+  color: $secondary
+  +circle(16px , $primary)
+  i 
+    position: relative
+    font-size: 16px
+    top: 0
+.i-process__line_inv
+  display: inline-block
+  float: left
+  +line-middle(16px , calc(50% - 24px), 1px, $primary)
